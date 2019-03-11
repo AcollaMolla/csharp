@@ -79,6 +79,7 @@
             0,
             0});
             this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.ReadOnly = true;
             this.numericUpDown1.Size = new System.Drawing.Size(44, 20);
             this.numericUpDown1.TabIndex = 1;
             this.numericUpDown1.Value = new decimal(new int[] {
@@ -87,6 +88,7 @@
             0,
             0});
             this.numericUpDown1.ValueChanged += new System.EventHandler(this.commonNumericUpDownEvent);
+            this.numericUpDown1.Click += new System.EventHandler(this.commonNumericUpDownEvent);
             // 
             // numericUpDown2
             // 
@@ -102,6 +104,7 @@
             0,
             0});
             this.numericUpDown2.Name = "numericUpDown2";
+            this.numericUpDown2.ReadOnly = true;
             this.numericUpDown2.Size = new System.Drawing.Size(44, 20);
             this.numericUpDown2.TabIndex = 2;
             this.numericUpDown2.Value = new decimal(new int[] {
@@ -110,6 +113,7 @@
             0,
             0});
             this.numericUpDown2.ValueChanged += new System.EventHandler(this.commonNumericUpDownEvent);
+            this.numericUpDown2.Click += new System.EventHandler(this.commonNumericUpDownEvent);
             // 
             // numericUpDown3
             // 
@@ -125,6 +129,7 @@
             0,
             0});
             this.numericUpDown3.Name = "numericUpDown3";
+            this.numericUpDown3.ReadOnly = true;
             this.numericUpDown3.Size = new System.Drawing.Size(44, 20);
             this.numericUpDown3.TabIndex = 3;
             this.numericUpDown3.Value = new decimal(new int[] {
@@ -133,6 +138,7 @@
             0,
             0});
             this.numericUpDown3.ValueChanged += new System.EventHandler(this.commonNumericUpDownEvent);
+            this.numericUpDown3.Click += new System.EventHandler(this.commonNumericUpDownEvent);
             // 
             // button1
             // 
@@ -159,6 +165,7 @@
             0,
             0});
             this.numericUpDown4.Name = "numericUpDown4";
+            this.numericUpDown4.ReadOnly = true;
             this.numericUpDown4.Size = new System.Drawing.Size(44, 20);
             this.numericUpDown4.TabIndex = 5;
             this.numericUpDown4.Value = new decimal(new int[] {
@@ -167,6 +174,7 @@
             0,
             0});
             this.numericUpDown4.ValueChanged += new System.EventHandler(this.commonNumericUpDownEvent);
+            this.numericUpDown4.Click += new System.EventHandler(this.commonNumericUpDownEvent);
             // 
             // numericUpDown5
             // 
@@ -182,6 +190,7 @@
             0,
             0});
             this.numericUpDown5.Name = "numericUpDown5";
+            this.numericUpDown5.ReadOnly = true;
             this.numericUpDown5.Size = new System.Drawing.Size(44, 20);
             this.numericUpDown5.TabIndex = 6;
             this.numericUpDown5.Value = new decimal(new int[] {
@@ -190,6 +199,7 @@
             0,
             0});
             this.numericUpDown5.ValueChanged += new System.EventHandler(this.commonNumericUpDownEvent);
+            this.numericUpDown5.Click += new System.EventHandler(this.commonNumericUpDownEvent);
             // 
             // numericUpDown6
             // 
@@ -205,6 +215,7 @@
             0,
             0});
             this.numericUpDown6.Name = "numericUpDown6";
+            this.numericUpDown6.ReadOnly = true;
             this.numericUpDown6.Size = new System.Drawing.Size(44, 20);
             this.numericUpDown6.TabIndex = 7;
             this.numericUpDown6.Value = new decimal(new int[] {
@@ -213,6 +224,7 @@
             0,
             0});
             this.numericUpDown6.ValueChanged += new System.EventHandler(this.commonNumericUpDownEvent);
+            this.numericUpDown6.Click += new System.EventHandler(this.commonNumericUpDownEvent);
             // 
             // numericUpDown7
             // 
@@ -228,6 +240,7 @@
             0,
             0});
             this.numericUpDown7.Name = "numericUpDown7";
+            this.numericUpDown7.ReadOnly = true;
             this.numericUpDown7.Size = new System.Drawing.Size(44, 20);
             this.numericUpDown7.TabIndex = 8;
             this.numericUpDown7.Value = new decimal(new int[] {
@@ -236,6 +249,7 @@
             0,
             0});
             this.numericUpDown7.ValueChanged += new System.EventHandler(this.commonNumericUpDownEvent);
+            this.numericUpDown7.Click += new System.EventHandler(this.commonNumericUpDownEvent);
             // 
             // label2
             // 
